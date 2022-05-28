@@ -1,0 +1,62 @@
+:root {
+    --mdb-primary: #1e1e1e;
+    --gray: #f1f1f1;
+    --dark: #0d0d0d;
+    --mdb-dark-deep: #141414;
+    --link-color: rgb(163, 163, 163);
+    --link-color-active: rgb(252, 252, 252);
+}
+
+.bg-primary {
+    background-color: var(--mdb-primary) !important;
+}
+
+.btn.active {
+    background-color: var(--dark);
+    color: white;
+}
+
+.btn.normal {
+    box-shadow: none;
+}
+
+.darkmode {
+    background: black;
+    --link-color: rgb(170, 170, 170);
+    --link-color-active: rgb(230, 230, 230);
+    --mdb-white: #000;
+    --mdb-black: #fff;
+}
+
+.darkmode * {
+    color: white;
+}
+
+.darkmode img[class] {
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+.darkmode .bg-primary {
+    background-color: var(--dark) !important;
+}
+
+.darkmode .bg-light {
+    background-color: var(--mdb-dark-deep) !important;
+}
+
+.darkmode .bg-white {
+    background-color: var(--mdb-dark) !important;
+}
+
+.darkmode .btn-white {
+    background-color: var(--mdb-dark);
+}
+
+.darkmode .text-primary {
+    color: white !important;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
